@@ -13,10 +13,6 @@
 
 ---
 
-## Folder structure
-
----
-
 ## Quick summary of the analyses (what to look for)
 1. **Top-paying Data Analyst Jobs** — list top remote-paying roles.
 2. **Skills for Top-Paying Jobs** — which skills appear in the highest-paid roles.
@@ -159,12 +155,9 @@ LIMIT 25;
 ---
 
 ## Results & contact
-- Results (tables/charts) are available in the `results/` folder or can be reproduced with the SQL scripts.
+- Results (SQL command files) are available in the [Open project_sql folder](./project_sql/) folder or can be reproduced with the SQL scripts.
 - **Want to hire me?** Add your preferred contact information below (GitHub / LinkedIn / email), or replace the placeholders.
 
-**Contact:** `Your Name` — `your.email@example.com` — `https://github.com/yourusername` — `https://www.linkedin.com/in/yourprofile`
+**Contact:** `Nicolas Zanni` — `zannimoralesnicolas@gmail.com` — `https://github.com/zannicolas` — `https://www.linkedin.com/in/nicolas-zanni`
 
----
-
-*This README is a condensed, hire-ready version of the original project README.*
 
