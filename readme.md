@@ -14,12 +14,6 @@
 ---
 
 ## Folder structure
-```
-/ (repo root)
-├─ README.md                # This file
-├─ project_sql/             # All SQL scripts used for the analysis
-└─ results/                 # (optional) saved outputs or CSVs
-```
 
 ---
 
