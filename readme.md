@@ -45,7 +45,8 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10;
 ```
-
+![alt text](1_top_paying_roles.png)
+*ChatGPT generated this graph from my SQL query results*
 ### 2) Skills for Top Paying Jobs
 ```sql
 WITH top_paying_jobs AS (
@@ -75,7 +76,8 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY
     salary_year_avg DESC;
 ```
-
+![alt text](2_top_paying_roles_skills.png)
+*ChatGPT generated this graph from my SQL query results*
 ### 3) In-Demand Skills for Data Analysts
 ```sql
 SELECT
@@ -93,7 +95,15 @@ ORDER BY
     demand_count DESC
 LIMIT 5;
 ```
+| Skills   | Demand Count |
+|----------|--------------|
+| SQL      | 7291         |
+| Excel    | 4611         |
+| Python   | 4330         |
+| Tableau  | 3745         |
+| Power BI | 2609         |
 
+*Table of the demand for the top 5 skills in data analyst job postings*
 ### 4) Skills Based on Salary
 ```sql
 SELECT
@@ -112,7 +122,20 @@ ORDER BY
     avg_salary DESC
 LIMIT 25;
 ```
+| Skills        | Average Salary ($) |
+|---------------|-------------------:|
+| pyspark       |            208,172 |
+| bitbucket     |            189,155 |
+| couchbase     |            160,515 |
+| watson        |            160,515 |
+| datarobot     |            155,486 |
+| gitlab        |            154,500 |
+| swift         |            153,750 |
+| jupyter       |            152,777 |
+| pandas        |            151,821 |
+| elasticsearch |            145,000 |
 
+*Table of the average salary for the top 10 paying skills for data analysts*
 ### 5) Most Optimal Skills to Learn
 ```sql
 SELECT
@@ -136,7 +159,20 @@ ORDER BY
     demand_count DESC
 LIMIT 25;
 ```
+| Skill ID | Skills     | Demand Count | Average Salary ($) |
+|----------|------------|--------------|-------------------:|
+| 8        | go         | 27           |            115,320 |
+| 234      | confluence | 11           |            114,210 |
+| 97       | hadoop     | 22           |            113,193 |
+| 80       | snowflake  | 37           |            112,948 |
+| 74       | azure      | 34           |            111,225 |
+| 77       | bigquery   | 13           |            109,654 |
+| 76       | aws        | 32           |            108,317 |
+| 4        | java       | 17           |            106,906 |
+| 194      | ssis       | 12           |            106,683 |
+| 233      | jira       | 20           |            104,918 |
 
+*Table of the most optimal skills for data analyst sorted by salary*
 ---
 
 ## How to run
