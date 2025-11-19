@@ -192,8 +192,6 @@ LIMIT 25;
 
 ## Results & contact
 - Results (SQL command files) are available in the [Open project_sql folder](./project_sql/) folder or can be reproduced with the SQL scripts.
-- **Want to hire me?** Add your preferred contact information below (GitHub / LinkedIn / email), or replace the placeholders.
-
-**Contact:** `Nicolas Zanni` — `zannimoralesnicolas@gmail.com` — `https://github.com/zannicolas` — `https://www.linkedin.com/in/nicolas-zanni`
+- **Want to hire me?** `Nicolas Zanni` — `zannimoralesnicolas@gmail.com` — `https://github.com/zannicolas` — `https://www.linkedin.com/in/nicolas-zanni`.
 
 
